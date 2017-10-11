@@ -23,10 +23,15 @@ Although, that raises my concern of how this will affect the classification with
 More details on the study:
 http://www.clemson.edu/extension/hgic/water/resources_stormwater/rain_garden_plants_iris_versicolor.html
 
-
 Part 2b
 
+1.
 Bag of words is good for textual analysis based of the frequencies of words in the text but it fails, since it breaks the whole text into words the contextual meaning is lost.
-Fasf
+
+2.
+All the features have equal weights as all of them are evaluated whether they’re present in a particular email or not. Due to onehotcoding.
+
+3.
+Yes, it did, since there’s a lot of room for improvement, for instance to begin with the data cleaning should help in improving the accuracy, presence of xml or html tags confuses the classifier. Secondly, the dataset is small so, that accounts for mis-classification as well.
 
 
